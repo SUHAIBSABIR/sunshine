@@ -44,6 +44,13 @@
     margin-top: 3%;
     margin-right: 4%;
     position: relative;
+    transition: all ease 0.3s;
+}
+
+#text>h4 a {
+    text-decoration: none;
+    position: relative;
+    color: black;
 }
 
 #text>h4::after {
@@ -52,4 +59,8 @@
     height: 100%;
     background-color: black;
     position: absolute;
+    border: 1px solid black;
+    border-radius: 50px;
+    bottom: -100;
+
 }
