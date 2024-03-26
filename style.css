@@ -3,6 +3,12 @@
     src: url(/fonts/NeueHaasDisplayBlack.ttf);
 }
 
+@font-face {
+    font-family: "Neuehaasdisplay mediu";
+    src: url(/fonts/NeueHaasDisplayBold.ttf);
+
+}
+
 * {
     margin: 0%;
     padding: 0%;
@@ -175,6 +181,7 @@ body {
     overflow-x: auto;
 }
 
+
 #moving {
     display: inline-block;
     overflow-x: auto;
@@ -189,4 +196,47 @@ body {
     to {
         transform: translateX(-100%);
     }
+}
+
+#page2-bottom {
+
+    min-height: 100vh;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.b-right {
+    width: 50%;
+    margin-left: 6%;
+}
+
+.b-right h1 {
+    font-size: 9vh;
+    line-height: 10vh;
+
+}
+
+.b-left {
+    width: 30%;
+    margin: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.b-left img {
+    width: 60%;
+    border-radius: 15px;
+}
+
+.b-left p {
+    margin-top: 6vh;
+    line-height: 3vh;
+    text-align: start;
+    /* width: 50%; */
 }
