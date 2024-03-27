@@ -290,13 +290,12 @@ body {
 #fixed-img {
     width: 18vw;
     height: 25vw;
-    background-color: rgb(199, 125, 125);
     z-index: 99;
     border: 2px solid black;
     border-radius: 10px;
     position: fixed;
     left: 50%;
-    bottom: 30%;
+    bottom: 18%;
     display: none;
 
 }
