@@ -288,15 +288,15 @@ body {
 }
 
 #fixed-img {
-    width: 20vw;
-    height: 20vw;
-    background-color: red;
-    z-index: 9;
+    width: 18vw;
+    height: 25vw;
+    background-color: rgb(199, 125, 125);
+    z-index: 99;
     border: 2px solid black;
     border-radius: 10px;
     position: fixed;
     left: 50%;
-    bottom: 15%;
+    bottom: 30%;
     display: none;
 
 }

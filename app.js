@@ -1,24 +1,30 @@
-const scroll = new LocomotiveScroll({
-    el: document.querySelector("#main"),
-    smooth: true
-});
+// const scroll = new LocomotiveScroll({
+//     el: document.querySelector("#main"),
+//     smooth: true
+// });
 
 
 
 var a = document.querySelector("#page3")
-var b = document.querySelector("#fixed-img")
+var fixed = document.querySelector("#fixed-img")
+var elem = document.getElementById("elem")
+var image = elem.getAttribute("data-image")
+console.log(image)
+
 
 
 a.addEventListener("mouseenter", function () {
 
-    b.style.display = "block"
+    fixed.style.display = "block"
+    fixed.style.backgroundImage
 
 })
 
 
 a.addEventListener("mouseleave", function () {
 
-    b.style.display = "none"
+    fixed.style.display = "none"
 
 })
+
 
